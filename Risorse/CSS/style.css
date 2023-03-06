@@ -35,7 +35,7 @@ header > div:first-child {
     margin: 0 auto;
 }
 
-/* classe per bordo dashed generico */
+/* classe per bordo dashed nero generico */
 .border {
     border: 1px dashed black;
 }
@@ -85,7 +85,7 @@ main {
 }
 
 .pinky {
-    background-color: #FFC0CC;
+    background-color: #FFC0CC; 
     min-width: 40%; /* 384px su 960px */
     min-height: 25rem; /* 400px */
 }
@@ -95,14 +95,44 @@ main {
     min-height: 45rem; /* 720px */
 }
 
-.box.border.flex.alignctr div:first-child {
-    border-right: 2px dashed;
-}
-
-
-
 /* footer style */
 footer {
     background-color: #23272A;
     width: 100vw; /* 1536px */
+}
+
+footer > div:first-child {
+    padding-top: 0.6rem; /* 10px */ 
+    padding-bottom: 1.8rem; /* 30px */
+}
+
+#rose {
+    background-color: #F08080; 
+    min-width: 30%; /* 290px su 960px */
+    min-height: 28rem; /* 460px */
+}
+
+#ocean {
+    background-color: #1EB2AA;
+    min-width: 70%; /* 670px su 960px */
+    min-height: 28rem; /* 460px */ 
+}
+
+#ocean div {
+    border: 1px dashed white;
+    min-width: calc(100% / 4); 
+}
+
+#lightgreen {
+    background-color: #7FFFD4;
+    text-align: center;
+    margin-top: 1.25rem; /* 20px */
+    align-items: center;
+    min-height: 3.75rem; /* 60px */
+}
+
+#lightgreen > div {
+    background-color: #FFB6C1;
+    padding: 0.7%;
+
 }
