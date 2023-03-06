@@ -1,7 +1,77 @@
 /* general style */
-
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+}
+
+/* header style */
+header {
+    background-color: #AED8E6;
+    padding-top: 1em;
+    width: 100vw; /* 1536px */
+
+}
+
+header > div:first-child {
+    background-color: #DAA520;
+}
+
+.flex {  
+    display: flex;
+    justify-content: space-between;
+} 
+
+/* classe per blocchi interni centrati */
+.box { 
+    max-width: 60em; /* 960px su 1536px */
+    margin: 0 auto;
+}
+
+/* classe per bordo dashed generico */
+.border {
+    border: 1px dashed black;
+}
+
+nav {
+    border-style: dashed;
+    border-width: 0 2px;
+    width: 60%;
+    text-align: center;
+}
+
+#yellowbox > * {
+    padding: 0.9%;
+}
+
+header > div:last-child {
+    background-color: #06008B;
+    width: 100%;
+    padding: 2.5em; /* 40px */
+    margin-top: 1em;
+}
+
+#pinkbox {
+    background-color: #EE82EF;
+    max-width: 47%; /* 725px su 1536px */
+    height: 20em; /* 320px su 1536px */
+    margin: 0 auto;
+}
+
+
+
+
+
+
+
+/* main style */
+main {
+    background-color: #D3D3D3;
+    width: 100vw; /* 1536px */
+}
+
+/* footer style */
+footer {
+    background-color: #23272A;
+    width: 100vw; /* 1536px */
 }
