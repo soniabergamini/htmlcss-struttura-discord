@@ -59,7 +59,7 @@ nav {
 header > div:last-child {
     background-color: #06008B;
     width: 100%;
-    margin-top: 1rem;
+    margin-top: 1rem; /* 16px */
 }
 
 #pinkbox {
@@ -81,19 +81,23 @@ main {
 .lightblue {
     background-color: #1D90FF;
     min-width: 60%; /* 576px su 960px */
-    min-height: 25rem;
+    min-height: 25rem; /* 400px */
 }
 
 .pinky {
     background-color: #FFC0CC;
     min-width: 40%; /* 384px su 960px */
-    min-height: 25rem;
+    min-height: 25rem; /* 400px */
 }
 
 #greenbig {
     background-color: #228B23;
+    min-height: 45rem; /* 720px */
 }
 
+.box.border.flex.alignctr div:first-child {
+    border-right: 2px dashed;
+}
 
 
 
