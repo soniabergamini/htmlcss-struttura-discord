@@ -5,17 +5,6 @@
     margin: 0;
 }
 
-/* header style */
-header {
-    background-color: #AED8E6;
-    padding-top: 1rem;
-    width: 100vw; /* 1536px */
-}
-
-header > div:first-child {
-    background-color: #DAA520;
-}
-
 /* classi per contenitori flex */
 .flex {  
     display: flex;
@@ -45,6 +34,17 @@ header > div:first-child {
     padding: 2.5rem; /* 40px */
 }
 
+/* header style */
+header {
+    background-color: #AED8E6;
+    padding-top: 1rem;
+    width: 100vw; /* 1536px */
+}
+
+header > div:first-child {
+    background-color: #DAA520;
+}
+
 nav {
     border-style: dashed;
     border-width: 0 2px;
@@ -65,7 +65,7 @@ header > div:last-child {
 #pinkbox {
     background-color: #EE82EF;
     max-width: 47%; /* 725px su 1536px */
-    height: 20rem; /* 320px su 1536px */
+    min-height: 20rem; /* 320px su 1536px */
     margin: 0 auto;
 }
 
@@ -134,5 +134,4 @@ footer > div:first-child {
 #lightgreen > div {
     background-color: #FFB6C1;
     padding: 0.7%;
-
 }
