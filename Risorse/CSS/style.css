@@ -8,29 +8,41 @@
 /* header style */
 header {
     background-color: #AED8E6;
-    padding-top: 1em;
+    padding-top: 1rem;
     width: 100vw; /* 1536px */
-
 }
 
 header > div:first-child {
     background-color: #DAA520;
 }
 
+/* classi per contenitori flex */
 .flex {  
     display: flex;
-    justify-content: space-between;
 } 
+
+.spacebtw {
+    justify-content: space-between;
+}
+
+.alignctr {
+    justify-content: center;
+}
 
 /* classe per blocchi interni centrati */
 .box { 
-    max-width: 60em; /* 960px su 1536px */
+    max-width: 60rem; /* 960px su 1536px */
     margin: 0 auto;
 }
 
 /* classe per bordo dashed generico */
 .border {
     border: 1px dashed black;
+}
+
+/* classe per padding box generico */
+.pad {
+    padding: 2.5rem; /* 40px */
 }
 
 nav {
@@ -47,28 +59,43 @@ nav {
 header > div:last-child {
     background-color: #06008B;
     width: 100%;
-    padding: 2.5em; /* 40px */
-    margin-top: 1em;
+    margin-top: 1rem;
 }
 
 #pinkbox {
     background-color: #EE82EF;
     max-width: 47%; /* 725px su 1536px */
-    height: 20em; /* 320px su 1536px */
+    height: 20rem; /* 320px su 1536px */
     margin: 0 auto;
 }
 
-
-
-
-
-
-
 /* main style */
 main {
-    background-color: #D3D3D3;
     width: 100vw; /* 1536px */
 }
+
+.bkgrey {
+    background-color: #D3D3D3;
+}
+
+.lightblue {
+    background-color: #1D90FF;
+    min-width: 60%; /* 576px su 960px */
+    min-height: 25rem;
+}
+
+.pinky {
+    background-color: #FFC0CC;
+    min-width: 40%; /* 384px su 960px */
+    min-height: 25rem;
+}
+
+#greenbig {
+    background-color: #228B23;
+}
+
+
+
 
 /* footer style */
 footer {
